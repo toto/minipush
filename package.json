@@ -1,0 +1,23 @@
+{
+  "name": "minipush",
+  "version": "0.0.1",
+  "description": "simple, lightweight multi-application push server for APNS",
+  "main": "minipush.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "keywords": [
+    "apns",
+    "push"
+  ],
+  "author": "mrtoto",
+  "license": "BSD",
+  "dependencies": {
+    "apn": "^2.1.4",
+    "async": "^2.3.0",
+    "body-parser": "^1.17.1",
+    "crypto": "0.0.3",
+    "express": "^4.15.2",
+    "redis": "^2.7.1"
+  }
+}

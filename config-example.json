@@ -1,0 +1,22 @@
+{
+	"redis": {
+		"port": 6379,
+		"host": "localhost"
+	},
+	"token": {
+		"key": "./certs/apns-key.p8",
+		"keyId": "YOUR KEYID HERE",
+		"teamId": "YOUR TEAM ID HERE"
+	},
+	"applications": [
+		{
+			"identifier": "yourapp",
+			"bundleId": "com.example.yourapp"
+		},
+		{
+			"sandbox": true,
+			"identifier": "yourapp-dev",
+			"bundleId": "com.example.yourapp"			
+		}
+	]
+}
