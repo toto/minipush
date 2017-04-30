@@ -11,12 +11,28 @@
 	"applications": [
 		{
 			"identifier": "yourapp",
-			"bundleId": "com.example.yourapp"
+			"bundleId": "com.example.yourapp",
+			"access": [
+					{
+						"token": "32698b262bf107767a87cd2d72624172461a7392",
+						"scopes": ["register", "publish"]
+					},
+					{
+						"token": "7777e7568695fe1638a1f8f4e3e08ac8dc9131d2",
+						"scopes": ["register"]
+					}
+				]
 		},
 		{
 			"sandbox": true,
 			"identifier": "yourapp-dev",
-			"bundleId": "com.example.yourapp"			
+			"bundleId": "com.example.yourapp",
+			"access": [
+					{
+						"token": "0a090e95e902ad586e23dc3fb614cc83a4781de9",
+						"scopes": ["register", "publish"]
+					}
+			]
 		}
 	]
 }
