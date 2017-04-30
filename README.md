@@ -33,4 +33,4 @@ You define one or more applications to send token to. Each application has a `id
 
 ## License
 
-BSD see [LICENSE](LICENSE)
+MIT, see [LICENSE](LICENSE)
