@@ -3,6 +3,10 @@
 		"port": 6379,
 		"host": "localhost"
 	},
+	"http": {
+		"port": 3000,
+		"host": "localhost"
+	},
 	"token": {
 		"key": "./certs/apns-key.p8",
 		"keyId": "YOUR KEYID HERE",

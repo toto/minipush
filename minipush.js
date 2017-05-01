@@ -5,6 +5,8 @@ let config = require('./config.json');
 
 app.use('/api', api);
 
-app.listen(3000, "::", () => {
-  console.log('ocpush listening on port 3000');
+let hostConfig = config.http;
+
+app.listen(hostConfig.port, hostConfig.host, () => {
+  console.log('minipush listening on', "http://" + hostConfig.host + ":" + hostConfig.port);
 });
