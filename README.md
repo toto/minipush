@@ -56,6 +56,8 @@ Authorization: Bearer 7777e7568695fe1638a1f8f4e3e08ac8dc9131d2
 
 #### Send messages
 
+The `tags` property determines where the push messages are sent. If it is omnited or empty the message is to _all_ registered devices.
+
 ```
 POST /api/message/[identifier]
 
