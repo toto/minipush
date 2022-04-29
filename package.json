@@ -14,7 +14,7 @@
   "license": "BSD",
   "dependencies": {
     "apn": "^2.2.0",
-    "async": "^2.3.0",
+    "async": "^2.6.4",
     "body-parser": "^1.17.1",
     "crypto": "0.0.3",
     "express": "^4.15.2",
